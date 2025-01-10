@@ -1,0 +1,213 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: "Poppins", serif;
+   
+
+}
+body {
+    font-size: 14px;
+    font-weight: 400;
+    color: #888;
+}
+/* nav1 style here */
+.nav1 { 
+    display: flex;
+    justify-content: space-between;
+    padding: 2% 6%;
+    align-items: center;
+    height: 2px;
+
+    
+}
+.nav1 ul li{
+    list-style: none;
+}
+.nav1 ul li a{
+    text-decoration: none;
+    color: #333;
+}
+
+.nav1_left_about {
+    display: flex;
+    gap: 10px;
+    justify-content: space-around;
+    align-items: center;
+
+}
+.nav1_right_number{
+    display: flex;
+    gap: 20px;
+    justify-content: space-around;
+    align-items: center;
+  
+}
+.nav1_right_number .fa-solid{
+    font-size: 14px;
+    padding-right: 5px;
+    color: #1A76D1;
+}
+
+.nav1 ul a:hover{
+    color: #1A76D1;
+}
+/* nav1 style end */
+/* nav2 style start here */
+.nav2{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 15px;
+    padding: 2% 6%;
+
+}
+.nav2_ul{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    gap: ;
+    
+}
+.nav2_ul li{
+    list-style: none;
+}
+.nav2_ul li a{
+    text-decoration: none;
+    color: #333;
+   padding: 7px 15px;
+}
+.nav2_ul li a:hover{
+    background-color:#2196F3;
+    color: #fff;
+    border-radius: 10px;
+}
+/* button style */
+.primary_btn{
+    background-color: #2196F3;
+    color: #fff;
+    padding: 12px 20px;
+    border-radius: 10px;
+    border-style: none;
+    box-shadow: 0px 4px 8px 0px rgba(0,0,0,0.1);
+}
+/* body image stle */
+.main_image img{
+    width: 100%;
+   
+}
+.medical_service_main_body {
+    background-image: url("../images/slider2.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 600px;
+
+}
+.medical_service_content{
+    width: 60%;
+    text-align: left;
+    padding: 13% 6%;
+    c
+
+}
+.medical_service_content h1{
+    font-size: 40px;
+    color:#2C2D3F; 
+}
+.medical_service_content h1 span{
+    color: #1A76D1;
+}
+.medical_service_content p{
+    color: #333;
+    margin: 20px 0;
+    width: 90%;
+
+}
+/* emergyncy three div style */
+.emergyncy_3_div{
+    display: flex;
+    justify-content:space-around;
+    align-items: center;
+    gap: 30px;
+    margin: -10% 6%;
+    
+
+}
+.emergyncy_child{
+    background-color: #1A76D1;
+    color: white;
+    height: 220px;
+    width: 300px;
+    padding: 1% 2%;
+    box-shadow: 0px 4px 8px 5px rgba(0,0,0,0.1);
+    border-radius: 5px;
+    transition:ease 0.5s; 
+}
+.emergyncy_child h5 {
+    font-size: 16px;
+    font-weight: 400;
+    margin: 12px 0;
+}
+.emergyncy_child h3{
+    font-size: 20px;
+    margin-bottom: 12px;
+}
+.emergyncy_child p{
+    font-size: 14px;
+    margin-bottom: 15px;
+
+}
+.learn_btn{
+    margin-bottom: 12px;
+}
+.emergyncy_child:hover{
+    transform: translateY(-5%);
+    
+}
+/* emergyncy 3 div style end here */
+
+/* we are ready div */
+.we_are_always{
+    margin: 18% 30%;
+    text-align: center;
+    color: #333;
+}
+.we_are_always img{
+    margin: 20px 0;
+}
+.pharmecy{
+    display: flex;
+    margin: -15% 10%;
+    font-size: 30px;
+    justify-content: space-around;
+    
+}
+.circle {
+    border: 0.5px solid #888;
+    height: 150px;
+    width: 150px;
+    border-radius: 50%;
+    position: relative;
+}
+
+.circle .fa-solid{
+    font-size: 40px;
+    position: absolute;
+    top: 50px;
+    left: 55px;
+    color: #333;
+}
+.circle:hover{
+    background-color: #2196F3;
+    color: #fff;
+}
+circle{
+    display: flex;
+    justify-content: space-around;
+}
+.circle_cild{
+    width: 200px;
+    height: 200px;
+    margin-top: 160px;
+    
+}
